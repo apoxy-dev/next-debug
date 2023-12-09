@@ -87,6 +87,9 @@ export default function Home({ path, headers }) {
             Courier New,
             monospace;
         }
+        td {
+          min-width: 240px;
+        }
       `}</style>
 
       <style jsx global>
