@@ -38,7 +38,7 @@ export default function Home({ path, headers }) {
 							</tr>
 						</thead>
 						<tbody>
-							{Object.keys(headers).map((key) => (
+							{Object.keys(headers).sort().map((key) => (
 								excluded.indexOf(key) >= 0 ? null :
 								<tr key={key}>
 									<td>{key}</td>
