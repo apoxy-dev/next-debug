@@ -31,7 +31,7 @@ export default function Home({ path, headers }) {
         <p>Path: {path}</p>
 				<div>
 					<table>
-						<thead width="100%" align="left">
+						<thead align="left">
 							<tr>
 								<th>Header</th>
 								<th>Value</th>
@@ -52,12 +52,7 @@ export default function Home({ path, headers }) {
 
       <style jsx>{`
         main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
+          width: 100%;
         }
         footer {
           width: 100%;
